@@ -270,6 +270,7 @@ body {
   text-align: center;
   font-weight: 400;
   color: #666;
+  text-transform: uppercase;
 }
 
 .food-menu-container {
@@ -326,6 +327,7 @@ body {
   font-size: 3rem;
   font-weight: 400;
   color: #555;
+  text-transform: uppercase;
 }
 
 .testimonial-container {
