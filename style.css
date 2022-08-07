@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 *,
 ::after,
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ########## utility classes ########## */
@@ -48,7 +48,7 @@ body {
 /* ########## navbar styling ########## */
 
 /* for desktop mode */
-.navbar input[type='checkbox'],
+.navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
 }
@@ -239,7 +239,7 @@ body {
 }
 
 .img-container::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -438,7 +438,7 @@ body {
     opacity: 0.95;
   }
 
-  .navbar-container input[type='checkbox'],
+  .navbar-container input[type="checkbox"],
   .navbar-container .hamburger-lines {
     display: block;
   }
@@ -449,7 +449,7 @@ body {
     height: 64px;
   }
 
-  .navbar-container input[type='checkbox'] {
+  .navbar-container input[type="checkbox"] {
     position: absolute;
     height: 32px;
     width: 40px;
@@ -520,19 +520,19 @@ body {
     font-size: 3rem;
   }
 
-  .navbar-container input[type='checkbox']:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
     transform: rotate(45deg);
   }
 
-  .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
 
